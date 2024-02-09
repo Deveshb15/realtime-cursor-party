@@ -1,0 +1,6 @@
+{
+  "$schema": "https://www.partykit.io/schema.json",
+  "name": "cursor-party-party",
+  "main": "party/server.ts",
+  "compatibilityDate": "2024-02-09"
+}

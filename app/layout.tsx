@@ -1,10 +1,8 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Inter, VT323 } from 'next/font/google'
 
-const inter = Inter({
-  subsets: ['latin'],
-})
+const vt323 = VT323({ weight: "400", subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: 'Cursor Party',
@@ -18,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={vt323.className}>{children}</body>
     </html>
   )
 }

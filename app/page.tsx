@@ -7,7 +7,7 @@ export default function Home({
 }: {
   searchParams?: { [key: string]: string | string[] | undefined };
 }) {
-  console.log("SEARCH PARAMS ", searchParams);
+  // console.log("SEARCH PARAMS ", searchParams);
   const room =
     typeof searchParams?.partyroom === "string"
       ? searchParams.partyroom

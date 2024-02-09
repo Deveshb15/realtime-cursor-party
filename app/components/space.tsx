@@ -41,6 +41,9 @@ const Space = () => {
 
   return (
     <div>
+        <div className="flex items-center justify-center min-h-screen">
+        <li className="mb-4 pulse-li text-2xl"><i className="pulse green"></i><span className="text-white">{count} LIVE on the website right now</span></li>
+        </div>
       {Object.keys(others).map((id) => (
         <div key={id}>
           <OtherCursor
